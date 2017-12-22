@@ -11,7 +11,8 @@
 @implementation HCDCalculateMinus
 @synthesize numberA = _numberA;
 @synthesize numberB = _numberB;
--(CGFloat)calculate{
+-(CGFloat)calculate
+{
     return self.numberA - self.numberB;
 }
 @end

@@ -19,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     HCDfactory *factory = [[HCDfactoryAdd alloc]init];
     HCDfactory  *calculate = [factory createFactory];
     calculate.numberA = 10;
